@@ -9,7 +9,6 @@
 - Command handler
 - Event handler
 - Basic commands (chatclearing, help commands)
-- Error reporting
 - Heroku deploying
 
 ### Reverts
