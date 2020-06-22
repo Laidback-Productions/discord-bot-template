@@ -1,0 +1,29 @@
+{
+  "name": "discord-bot-template",
+  "description": "A simple advanced Discord BOT template",
+  "keywords": ["discord", "bot"],
+  "logo": "https://raw.githubusercontent.com/Laidback-Productions/discord-bot-template/master/logo.png",
+  "repository": "https://github.com/Laidback-Productions/discord-bot-template",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Discord BOT Token",
+      "value": "",
+      "required": true
+    },
+    "BOT_PREFIX": {
+      "description": "Command prefix",
+      "value": "!",
+      "required": true
+    },
+    "BOT_CH": {
+      "description": "Development channel NAME",
+      "value": "dev",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    }
+  ]
+}

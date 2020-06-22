@@ -1,0 +1,23 @@
+{
+  "name": "discord-bot-template",
+  "version": "1.3.7",
+  "description": "Easy to use BOT template for development",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "devStart": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Laidback-Productions/discord-bot-template.git"
+  },
+  "author": "0xAndrewBlack @ Laidback-Productions",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Laidback-Productions/discord-bot-template/issues"
+  },
+  "homepage": "https://github.com/Laidback-Productions/discord-bot-template#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  }
+}
